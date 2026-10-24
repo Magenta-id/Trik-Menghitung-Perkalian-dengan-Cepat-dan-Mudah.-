@@ -1,0 +1,61 @@
+mjx-container {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+mjx-container[display] {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0.5em 0;
+  padding: 2px 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.judul_tabel_ul {
+  margin-bottom:-1.5rem;
+}
+
+.isi_tabel_ul {
+  margin-top: -1rem;
+}
+
+.isi_tabel_ul li {
+  margin-bottom: -1rem;
+}
+
+.judul_DaIs {
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+
+#daftar_isi {
+  background-color: #A9A9A9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  max-width: 45rem;
+}
