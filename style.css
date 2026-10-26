@@ -119,11 +119,16 @@ h3 {
   margin-bottom: -3rem;
 }
 
-#rumus_sed{
+.judul_sed{
+  margin-top: -0.5rem;
+}
+
+.rumus_sed{
   background-image: linear-gradient(#FEFCFF, #FEFCFF), linear-gradient(to right, #3F000F, #FF8C00);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   border: 2px solid transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   box-sizing: border-box;
   margin: 2rem auto;
