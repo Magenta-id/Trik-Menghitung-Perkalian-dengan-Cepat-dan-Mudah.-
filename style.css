@@ -88,7 +88,7 @@ h3 {
   height: 5px;
   left: 0;
   position: absolute;
-  width: 100%;
+  width: calc(100% + 20px);
 }
 
 .gambar {
@@ -134,4 +134,12 @@ h3 {
   margin: 2rem auto;
   max-width: 35rem;
   padding: 1rem 1rem;
+}
+
+#pola_25_Ganj {
+  margin-bottom: -1.5rem;
+  margin-top: -1.5rem;
+}
+#pola_25_Ganj li{
+  margin-bottom: -1.5rem;
 }
