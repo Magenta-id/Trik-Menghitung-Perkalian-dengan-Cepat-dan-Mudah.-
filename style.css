@@ -1,5 +1,4 @@
 mjx-container {
-  color: #000 !important;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -12,6 +11,12 @@ mjx-container[display] {
   margin: 0.5em 0;
   padding: 2px 0;
 }
+
+/* Hanya mengubah warna teks dasar MathJax menjadi hitam, tanpa merusak warna kustom */
+mjx-container, mjx-math, mjx-mrow {
+    color: #000;
+}
+
 
 html { scroll-behavior: smooth; }
 
