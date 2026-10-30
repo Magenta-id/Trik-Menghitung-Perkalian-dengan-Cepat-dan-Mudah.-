@@ -16,9 +16,12 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #000;
-  font-size: 1rem;
-  line-height: 1.6;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+body * {
+    color: #000;
 }
 
 /* Styling Tombol Melayang Back to Top */
