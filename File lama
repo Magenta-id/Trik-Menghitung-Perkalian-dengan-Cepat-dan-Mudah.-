@@ -1,0 +1,400 @@
+<style>
+  /* Menjangkau elemen teks umum */
+  p, li, h1, h2, h3, h4, span {
+    color: #000000 !important;
+  }
+
+  /* Menjangkau formula matematika (MathJax / KaTeX) */
+  .mjx-chtml, .MathJax, .katex, .katex * {
+    color: #000000 !important;
+  }
+  p, ul, ol, li, div{
+    text-align: left !important;
+  }
+  
+</style>
+
+
+
+<p style="text-align: justify;">Perkalian adalah salah satu operasi dasar matematika yang sangat sering kita gunakan sehari-hari, mulai dari menghitung ongkos sehari-hari (misal: tarif ojek Rp10.000 per perjalanan untuk 2 kali jalan sehari selama 5 hari ➔ 10.000 × 2 × 5, atau berbelanja di pasar atau minimarket (misal: membeli 5 bungkus mi instan seharga Rp3.500 per bungkus ➔&nbsp;5 × 3.500) dan masih banyak lagi.</p>
+
+<p style="text-align: justify;"><span style="font-family: verdana;"><span>Mungkin beberapa dari kita berpikir “ <i>kenapa tidak menggunakan kalkulator saja?</i> ”, apalagi saat ini kalkulator sudah bisa kita akses lewat manapun, dari mulai handphone sampai laptop, bahkan membuat program kal</span><span>kulator adalah salah satu program pertama dan paling mudah yg sering dibuat oleh orang-orang yang baru memulai belajar pemrograman, jadi kenapa kita harus mengetahui cara menghitung cepat dan efisien tanpa menggunakan alat bantu?&nbsp;Kemampuan melakukan perkalian cepat dan efisien tetap penting karena meningkatkan kemampuan berpikir kritis, efisiensi kerja harian, dan pemahaman logika dasar.</span></span></p>
+
+<p style="text-align: justify;"><span style="font-family: verdana;">Dan beberapa manfaat lain jika kita bisa melakukan perkalian cepat dan efisien tanpa kalkulator diantaranya:</span></p>
+
+<p style="text-align: left;"></p><p></p><p></p><ul style="text-align: left;"><li style="text-align: justify;"><span style="font-family: verdana;"><span><b>​</b></span><span><b>Efisiensi Waktu dan Kepraktisan</b>: Menghitung langsung di kepala jauh lebih cepat untuk transaksi sederhana (seperti menghitung total belanjaan, diskon, atau pembagian tagihan) dibandingkan harus membuka kunci HP dan mengetik angka di aplikasi kalkulator.</span></span></li></ul><p></p><p></p>
+
+<p></p><ul style="text-align: left;"><li style="text-align: justify;"><span style="font-family: verdana;"><b>​Melatih Ketajaman Otak (Cognitive Function)</b>: Berhitung cepat bertindak sebagai "olahraga" bagi otak. Latihan ini memperkuat ingatan kerja (working memory), meningkatkan fokus, serta melatih fleksibilitas mental.</span></li></ul><p></p><p></p>
+
+<ul style="text-align: left;"><li style="text-align: justify;"><span style="font-family: verdana;"><b>​Intuisi Angka (Number Sense)</b>: Memahami perkalian secara intuitif membuat seseorang lebih peka terhadap angka. Ini membantu mendeteksi kesalahan hitung atau manipulasi data, misalnya ketika kasir salah menginput harga atau saat melihat estimasi angka yang tidak masuk akal.</span></li></ul><p></p><p></p>
+
+<ul style="text-align: left;"><li style="text-align: justify;"><span style="font-family: verdana;"><b>​Pondasi untuk Matematika Tingkat Lanjut</b>: Perkalian adalah fondasi dasar. Tanpa kelancaran berhitung dasar, mempelajari aljabar, statistik, atau kalkulus akan terasa jauh lebih berat karena energi otak habis hanya untuk menyelesaikan hitungan sederhana.</span></li></ul><p></p><p></p>
+
+<ul style="text-align: left;"><li style="text-align: justify;"><span style="font-family: verdana;"><b>​Meningkatkan Kepercayaan&nbsp;Diri</b>: Kemampuan mengambil keputusan finansial atau estimasi angka secara langsung di tempat—tanpa bergantung pada alat bantu—memberikan rasa percaya diri yang lebih tinggi dalam situasi profesional maupun sosial.</span></li></ul>
+
+<!--1. KOTAK DAFTAR ISI-->
+<div style="background: rgb(248, 250, 252); border-color: rgb(226, 232, 240) rgb(226, 232, 240) rgb(226, 232, 240) rgb(37, 99, 235); border-image: none; border-left: 4px solid #2563eb; border-radius: 8px; border-style: solid; border-width: 1px 1px 1px 4px; border: 1px solid rgb(226, 232, 240); font-family: Poppins, sans-serif; margin: 20px 0px; padding: 14px 18px;">
+  <div style="color: #1e293b; font-size: 16px; font-weight: 700; margin-bottom: 10px;">
+    📌 Daftar Isi Artikel
+  </div>
+  <ul style="color: #334155; line-height: 1.8; margin: 0px; padding-left: 20px;">
+    <!--href dipasang dengan tanda pagar #-->
+    <li><a href="#perkalian-jari" style="color: #2563eb; text-decoration: none;">1. Perkalian 6-10 dengan Jari</a></li>
+    <li><a href="#mengali-membagi" style="color: #2563eb; text-decoration: none;">2. Mengali satu sisi dan membagi sisi yang lain dengan angka yang sama</a></li>
+    <li><a href="#perkalian-25" style="color: #2563eb; text-decoration: none;">3. Perkalian 25</a></li>
+    <li><a href="#kuadrat" style="color: #2563eb; text-decoration: none;">4. Mengalikan Dua angka kembar/Kuadrat</a></li>
+    <li><a href="#distributif" style="color: #2563eb; text-decoration: none;">5. Sifat Distributif atau Teknik Pembulatan</a></li>
+    <li><a href="#gasing" style="color: #2563eb; text-decoration: none;">6. Metode Gasing (Gampang, Asyik, dan Menyenangkan)</a></li>
+  </ul>
+</div>
+
+<!--KODE TOMBOL BACK TO TOP KHUSUS ARTIKEL INI-->
+<button id="backToTopBtn" onclick="scrollToTop()" style="background-color: #e84a43; border-color: currentcolor; border-image: none; border-radius: 50%; border-style: none; border-width: medium; border: none; bottom: 20px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px; color: white; cursor: pointer; display: none; font-size: 16px; outline: none; padding: 12px 16px; position: fixed; right: 20px; transition: background 0.3s; z-index: 999;" title="Kembali ke atas">
+  ▲
+</button>
+
+<script>
+  let mybutton = document.getElementById("backToTopBtn");
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+<!--- 1. Perkalian Jari --->
+
+<h3 id="perkalian-jari" style="border-left: 5px solid rgb(2, 132, 199); color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px; text-align: left;">
+  1. Perkalian 6-10 dengan Jari
+</h3>
+
+<p style="text-align: justify;"><span style="font-family: verdana;">Pertama pahami posisi angka pada setiap jari berikut</span></p>
+
+<p style="text-align: justify;"></p><div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-right: 1em; text-align: left;"><img border="0" data-original-height="1195" data-original-width="896" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUAs_3Qk9X3lvVmSVZs6dzr_-Sw431EeVxQ5-qFSzW2Y9q6jhWl8GvwGJ6wURshZBQmLFqgF5Hnh7RKXeWHtw5LE5lcvDtpWeyxOiovzmbGJYpBpDiEzmmPVV4WfHFhNGAnto4a4QZaXm-i3vTred1ZxImswygzxN4OhFUO81bvqKBVya2hh_dlHL1i218/s1600/1785487168167.png" title="Pola perkalian jari" /></span></div><p></p><p></p><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div>
+
+<p style="text-align: left;"><span style="font-family: verdana; text-align: justify;"><b>Buka jari sesuai pola dari angka yang ingin kita hitung</b></span></p><p style="text-align: left;"><span style="font-family: verdana;"><b>Contoh: </b>8 × 7 =....</span></p><p style="text-align: justify;"><span style="font-family: verdana;">Langkah pertama buka jari mengikuti posisi angka pada jari yang sudah kita lihat sebelumnya:</span></p>
+
+<div class="separator" style="clear: both; text-align: center;"><div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="1195" data-original-width="896" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihX8t783X2THjAu-aG_nh3NjrZnwQzcxxu68IzX7rmOtckp9x5OF8_nUFQV5pSrFgmfBnA7SEpy_4LWeMIqI9oe1cOcoNem8eCkWg2Xu0xLC8ldtSXPCqJooZsg162i3lIoivxG1lGhKtawBPgMCo7QZjSlbb-AmI_9FPHJIAR7Kna8xScyonYyEJM0pqC/s1600/1785495373180.png" /></span></div><p></p></div><span style="font-family: verdana;"><br /></span>
+
+<p style="text-align: justify;"><span style="font-family: verdana;">​Sekarang, mari hitung pola jari yang sudah dibentuk:</span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>​Jari terangkat (puluhan)</b>: Dijumlahkan satu sama lain.<br /></span><span style="font-family: verdana;">3 + 2 = 5 (nilai puluhan = 50)</span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>​Jari tertutup (satuan)</b>: Dikalikan satu sama lain.<br /></span><span style="font-family: verdana;">2 × 3 = 6 (nilai satuan = 6)</span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>​Hasil akhir:<br /></b></span><span style="font-family: verdana;">= 50 + 6<br /></span><span style="font-family: verdana;">= 56</span></p><p style="text-align: justify;"><span style="font-family: verdana;">​Jadi, 8 × 7 = 56.</span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>Contoh: </b>6 × 9 =....&nbsp;</span></p>
+
+<div style="text-align: justify;"><p style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="896" data-original-width="1195" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYusbHf8h_kYRz8ys_DwNlBR2GFbpnTsylFym3kyeCA61Vk25q5EP_8zqR6bxuEA0t86ZcwKKsmFEnj0rLVv2vUyIF8hnKFOe9QnPNcddJdJC5_xhWwOuO0R532lDyG3DI-3DgrMerJfVfMGybA5DQrzYe1WhrDE6Q8vYCRsrnvpwagYSagH7bxj4JrKnk/s1600/1785502231410.png" style="font-family: verdana; text-align: left;" /></p>
+  
+<p><span style="font-family: verdana;">Buka jari mengikuti pola angka seperti sebelumnya:</span></p><p><span style="font-family: verdana;">Hitung pola jari yang sudah dibentuk:</span></p><p><span style="font-family: verdana;"><b>​Jari terangkat (puluhan)</b>: Dijumlahkan satu sama lain.<br /></span><span style="font-family: verdana;">1 + 4 = 5 (nilai puluhan = 50)</span></p><p><span style="font-family: verdana;"><b>​Jari tertutup (satuan)</b>: Dikalikan satu sama lain.<br /></span><span style="font-family: verdana;">4 × 1 = 4 (nilai satuan = 4)</span></p><p><span style="font-family: verdana;"><b>​Hasil akhir:<br /></b></span><span style="font-family: verdana;">50 + 4 = 54<br /></span><span style="font-family: verdana;">​Jadi, 6 × 9 = 54.</span></p>
+  
+<!--- 2. Mengali dan Membagi --->
+  
+<h3 id="mengali-membagi" style="border-left: 5px solid rgb(2, 132, 199); color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;">
+  2. Mengali satu sisi dan membagi sisi yang lain dengan angka yang sama
+</h3>
+ 
+<p><span style="font-family: verdana;"><b>‎</b></span><span style="font-family: verdana;">Trik ini digunakan untuk <b>mengubah bentuk angka menjadi lebih sederhana dan mudah dihitung di luar kepala</b>, tanpa mengubah hasil akhirnya.</span></p>
+<p><span style="font-family: verdana;">​Angka yang paling umum dan paling mudah digunakan untuk trik ini adalah angka <b>2</b>.</span></p><p><span style="font-family: verdana;">​</span><b style="font-family: verdana;">Prinsip Dasarnya:</b></p><p><span style="font-family: verdana;">Bagi salah satu sisi angka dengan 2, lalu kalikan sisi angka lainnya dengan 2.</span></p>
+
+<div style="background: rgb(255, 255, 255); border-color: rgb(37, 99, 235) rgb(203, 213, 225) rgb(203, 213, 225); border-image: none; border-radius: 8px; border-style: solid; border-top: 4px solid #2563eb; border-width: 4px 1px 1px; border: 1px solid rgb(203, 213, 225); box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px -1px; margin-top: 25px; padding: 16px;">
+  <h4 style="color: #0f172a; margin: 0px 0px 8px;">Rumus:</h4>
+  \[ 
+\begin{align*}
+a × b &amp;= (\frac{a}{2})\;×\;(b × 2) \\
+a × b &amp;= x\;×\;y
+\end{align*}
+\]
+</div>
+  
+<p style="text-align: left;"> \(x\) = \(\frac{a}{2}\)<br /> \(y\) = \(b\;×\;2\) </p>
+  
+<p><b>Contoh: </b>Menghitung&nbsp;12 × 15 = ....&nbsp;</p><p><b>Sisi pertama (dibagi 2)</b>:<br />12 ÷ 2 = 6</p><p><b>Sisi kedua (dikalikan 2):<br /></b>15 × 2 = 30</p><p><b>Hitung bentuk barunya yang jauh lebih mudah:</b></p><p>6 × 30 = 180</p><div align="left"><div><span style="font-family: verdana;"><span style="font-size: 16px;">
+  
+<div style="text-align: left;"><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxW0OU6Uiuo1aG9weEfXH9qD7DQCjlbdZW1jAYQ1PveErgnwWkrzgEVLPxyY175WK8q2pilWdjCxlpaH34LA71-podP0-LvfifNvupPRPpH0r2eW6MAIBx0ePVkobPfRXkz8pk10GFUzLYidrTF1T0BZ1GGAQs4OwT2kFXnBHK2-kU8FIrXAvCUtWSA4J6/s1249/1785586549560.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="848" data-original-width="1249" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxW0OU6Uiuo1aG9weEfXH9qD7DQCjlbdZW1jAYQ1PveErgnwWkrzgEVLPxyY175WK8q2pilWdjCxlpaH34LA71-podP0-LvfifNvupPRPpH0r2eW6MAIBx0ePVkobPfRXkz8pk10GFUzLYidrTF1T0BZ1GGAQs4OwT2kFXnBHK2-kU8FIrXAvCUtWSA4J6/s1600/1785586549560.png" title="Mengali dan membagi" /></a></div><br /></div></span>
+  
+<span style="font-size: 16px;"><p style="text-align: left;"><span style="text-align: justify;"><b>‎Contoh lain: </b>18 × 36 =....</span></p></span></span></div><p>
+
+\[
+  \begin{align*} 18 × 36 &amp;= ... \\
+  (\frac {18}{{\color {#e41b17}{2}}}) × (36 × {\color {#e41b17}{2}}) &amp;=... \\
+  9 × 72 &amp;=648
+  \end{align*}
+\]
+  
+</p><div class="separator" style="clear: both; text-align: left;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="896" data-original-width="1195" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEqOixXW_qjZ-gnQVurr5Nl7qkMYAdVoBkh60UDzogNW1Qr73frf-8qlLT_DdqDLDgzJjiI1fVEGRmGlXPkNS_BX1WXabv1Fc7ZF1edSezRi2mB09bLlv_QO9bygTi3JGm183pP8MLql2NGS39tdBNwPMq7Hx1pCBGiAcKFYQ5Fv868oktNliqcIM-yJeR/s1600/1785643711720.png" title="Mengali dan membagi 2" /></span></div><span style="font-family: verdana;"><br /></span><div><span style="font-family: verdana;"><br /></span></div><div><span style="font-family: verdana;"><br /></span></div></div>
+  
+<h2 style="border-left: 5px solid rgb(2, 132, 199); clear: both; color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;"></h2>
+  
+<!--- 3. Perkalian 25 --->
+  
+  <h3 id="perkalian-25" style="border-left: 5px solid rgb(2, 132, 199); color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;">
+  3. Perkalian 25
+</h3>
+  
+<div style="text-align: left;"><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;"></p><p style="text-align: justify;"><span style="font-family: verdana; font-size: 16px;">​Kunci Trik Perkalian 25:<br /></span><span style="font-size: 16px;">Karena \(25\) = \(\frac{100}{4}\), maka cara tercepatnya adalah membagi angka pertama dengan \(4\), lalu kalikan hasilnya dengan \(100\).</span></p>
+
+<div style="background: rgb(255, 255, 255); border-color: rgb(37, 99, 235) rgb(203, 213, 225) rgb(203, 213, 225); border-image: none; border-radius: 8px; border-style: solid; border-top: 4px solid #2563eb; border-width: 4px 1px 1px; border: 1px solid rgb(203, 213, 225); box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px -1px; margin-top: 25px; padding: 16px;">
+  <h4 style="color: #0f172a; margin: 0px 0px 8px;">Rumus:</h4>
+\[
+  \begin{align*}
+  p\;×\;25\;&amp;=... \\
+  \frac{p}{4}\;×\;100\;&amp;=...
+  \end{align*}
+\]</div><div style="text-align: justify;">
+  
+<span style="font-family: verdana;"><br /></span></div><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div><p style="text-align: justify;"><span><span style="font-family: verdana; font-size: 16px;"><b>‎Contoh:</b> 8 × 25 =....</span></span></p><p style="text-align: justify;"><span style="font-family: verdana;"><span style="font-size: 16px;"><b>Bagi sisi pertama (p) :<br /></b></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎8 ÷ 4 = 2.</span></span></p><div style="text-align: justify;"><p><span style="font-family: verdana;"><span style="font-size: 16px;"><b>‎Lalu kalikan 100:<br /></b></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎2 × 100 = 200</span></span></p></div>
+  
+<div style="text-align: justify;"><span style="font-family: verdana;"><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1ZmJCr9Q1cmQOlwOSosN_bPpDXrFWhhFGkzv1B0X_xswcgTXYEGmYxbH5EUaOFewXwuh8AMLIy4xVgpuiEbaKMcRs3TmQyUeZmNcFHYXn-Yf7TozaEnZLjnBOp0Uz-lv2PCCZ-7zVtJuf2_yX3I9AvQ1P1JLFdUsW_z-ifAZoY_nW3bPh7_grbPYXf1ZA/s1215/1785591010576.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="880" data-original-width="1215" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1ZmJCr9Q1cmQOlwOSosN_bPpDXrFWhhFGkzv1B0X_xswcgTXYEGmYxbH5EUaOFewXwuh8AMLIy4xVgpuiEbaKMcRs3TmQyUeZmNcFHYXn-Yf7TozaEnZLjnBOp0Uz-lv2PCCZ-7zVtJuf2_yX3I9AvQ1P1JLFdUsW_z-ifAZoY_nW3bPh7_grbPYXf1ZA/s1600/1785591010576.png" /></a></div><br /><span style="font-size: 16px;"><br /></span></span></div><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div>
+  
+<p style="text-align: justify;"><span><span style="font-family: verdana; font-size: 16px;"><b>‎Contoh: </b>28 × 25 =....&nbsp;</span></span></p><p style="text-align: justify;"><span style="font-family: verdana;"><span style="font-size: 16px;"><b>‎Bagi angka 26 dengan 4:<br /></b></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎26 ÷ 4 = 6</span></span></p><div style="text-align: justify;"><p><span style="font-family: verdana;"><span style="font-size: 16px;"><b>‎Lalu kalikan 100:<br /></b></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎6 × 100 = 600</span></span></p>
+  
+\[
+  \begin{align*}
+  28 × 25 &amp;=... \\
+  \frac{28}{4} × 100 &amp;=... \\
+  7 × 100 &amp;=700
+  \end{align*}
+\]
+
+<p><span style="font-family: verdana;"><span style="font-size: 16px;">Atau dengan cara yang sama dengan sebelumnya, yaitu <b>membagi 2 sisi satu, dan mengali 2 sisi yang lain</b>. Tapi pada kasus ini yang kita kali 2 hanya sisi 25 saja, dan membagi sisi lain dengan 2 (cara ini efektif hanya jika lawan dari perkalian 25 berakhiran genap).&nbsp;</span></span></p></div><p style="text-align: justify;"><span style="font-family: verdana;"><span style="font-size: 16px;"><b>Contoh: 14 × 25 =....&nbsp;</b></span></span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>Kalikan 25 dengan 2:<br /></b></span><span style="font-family: verdana;">25 × 2 = 50</span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>Bagi 14 dengan angka 2:<br /></b></span><span style="font-family: verdana;">14 ÷ 2 = 7</span></p><p style="text-align: justify;"><span style="font-family: verdana;"><b>Lalu substitusikan angka yang sudah di dapat tadi:<br /></b></span><span style="font-family: verdana;">50 × 7 = 350</span></p>
+  
+<p style="text-align: justify;"><img border="0" data-original-height="864" data-original-width="1219" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieAu1n7PoqML0BQUGrXa-bV81f9LYZvTIrS2Wgu2QyE_969dzXHGVC6_rcFKNRzw3pXaFAplb5P6LQT6Bcq9nFf-5AHSSXrn7a2Gfu6ok3fluOPiyXESk8gQ1siadzNVw0iHWsOrddy3kHaPirUCJMnkXeV38i5Ew8E1Y5qigbv42oJpv7m38OtcX5rSTg/s1600/1785595413117.png" style="font-family: verdana; text-align: left;" /></p>
+  
+<div style="text-align: justify;"><p><span style="font-family: verdana;"><span style="font-size: 16px;">‎Untuk angka-angka yang tidak habis di bagi 4, ada trik lain. Kita harus tahu pola perkalian 25.<br /></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎25 × 1 = 25<br /></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎25 × 2 = 50<br /></span></span><span style="font-family: verdana;"><span style="font-size: 16px;">‎25 × 3 = 75</span></span></p><p><span style="font-family: verdana;"><span style="font-size: 16px;">‎Cukup ingat tiga pola ini untuk nanti kita jumlahkan dengan hasil pembagian 4 nanti.</span></span></p></div><div style="text-align: justify;"><span style="font-family: verdana;"><span style="font-size: 16px;"><p style="font-family: &quot;Times New Roman&quot;; font-size: medium;"><span style="font-family: verdana;"><span style="font-size: 16px;"><b>‎Contoh: </b>Menghitung 17 × 25 = ....&nbsp;</span></span></p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium;"><b><span style="text-align: left;">Bagi</span><span style="text-align: left;"> angka utama dengan 4:</span></b></p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;">17 ÷ 4 = 4 sisa 1</p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;">Angka 4 bernilai ratusan = 400</p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;"><b>Kalikan sisanya dengan 25:</b></p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;">1 × 25 = 25</p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;"><b>Jumlahkan Keduanya:</b></p><p style="font-family: &quot;Times New Roman&quot;; font-size: medium; text-align: left;">= 400 + 25<br />= 425</p></span></span></div>
+  
+<div style="text-align: justify;"><span style="font-family: verdana;"><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRbaW6fAVo-Xi8ft8RzlacFyAH7Hv-9Scz69TOaXeMvRIc7LoknCxxOhx-gPX7mplXN0U9LpnAR2GF0Aq7SBIq6mMdfJPsVakHirUjXXCimmhU_i2LFXQ0jjNCPHIOxYm7CLeC73kqaOs_WB2vcGGMBdlYo2JoCi8Oolv-2QwADrbj0pqIffVp8FuWH25B/s1271/1785595029006.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="832" data-original-width="1271" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRbaW6fAVo-Xi8ft8RzlacFyAH7Hv-9Scz69TOaXeMvRIc7LoknCxxOhx-gPX7mplXN0U9LpnAR2GF0Aq7SBIq6mMdfJPsVakHirUjXXCimmhU_i2LFXQ0jjNCPHIOxYm7CLeC73kqaOs_WB2vcGGMBdlYo2JoCi8Oolv-2QwADrbj0pqIffVp8FuWH25B/s1600/1785595029006.png" /></a></div><br />
+  
+<span style="font-size: 16px;"><br /></span></span><p><span style="font-family: verdana;"><span style="font-size: 16px;"><b>‎Contoh: </b>Menghitung 27 × 25 = ....&nbsp;</span></span></p></div><p style="text-align: justify;"><b><span style="text-align: left;">Bagi</span><span style="text-align: left;"> angka utama dengan 4:</span></b></p><p style="text-align: left;">27 ÷ 4 = 6 sisa 3</p><p style="text-align: left;">Angka 6&nbsp;bernilai ratusan = 600</p><p style="text-align: left;"><b>Kalikan sisanya dengan 25:</b></p><p style="text-align: left;">3 × 25 = 75</p><p style="text-align: left;"><b>Jumlahkan Keduanya:</b></p><p style="text-align: left;">= 600 + 75<br />= 675</p>
+
+<!--- Perkalian kuadrat --->
+  
+<h3 id="kuadrat" style="border-left: 5px solid rgb(2, 132, 199); color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px; text-align: left;">
+  4. Mengalikan angka kembar/Kuadrat
+</h3>
+  
+<p>Mengalikan angka kembar/kuadrat ini bisa kita bagi menjadi dua kelompok</p>
+  
+<h4>a. Mengalikan angka kembar/kuadrat dua digit (Puluhan)</h4>
+ 
+<p style="text-align: justify;">Dalam mengalikan dua angka kembar/kuadrat yang memiliki dua digit/puluhan, kita bisa menggunakan identitas aljabar:</p>
+  
+<div style="background: rgb(255, 255, 255); border-color: rgb(37, 99, 235) rgb(203, 213, 225) rgb(203, 213, 225); border-image: none; border-radius: 8px; border-style: solid; border-top: 4px solid #2563eb; border-width: 4px 1px 1px; border: 1px solid rgb(203, 213, 225); box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px -1px; margin-top: 25px; padding: 16px;">
+  <h4 style="color: #0f172a; margin: 0px 0px 8px;">📝 Identitas Aljabar :</h4>
+ \[
+  \begin{align*}
+  (a + b)^2 &amp;= (a + b)(a + b) \\
+  (a + b)^2 &amp;= a^2 + ab + ba + b^2 \\
+  (a + b)^2 &amp;= a^2 + 2ab + b^2
+  \end{align*}
+ \]
+  </div>
+
+  
+<div style="text-align: justify;"><p dir="ltr"><span style="font-family: verdana;"><b>Contoh: </b>Menghitung 23²</span></p>
+<div><p><span style="font-family: verdana;"><b>​Kita pecah 23 menjadi 20 + 3:</b></span></p><ul><li><span style="font-family: verdana;">​a = 20 (Puluhan)</span></li></ul><ul><li><span style="font-family: verdana;">​b = 3 (Satuan)</span></li></ul><p><span style="font-family: verdana;"><b>​Masukkan ke Rumus Identitas Aljabar:</b></span></p></div><p>
+  
+\[
+  \begin{align*}
+  (20 + 3)^2 &amp;= (20 + 3)\;(20 + 3) \\
+  (20 + 3)^2 &amp;= 20(20) + 20(3) + 3(20) + 3(3) \\
+  (20 + 3)^2 &amp;= 400 + 60 + 60 + 9 \\
+  (20 + 3)^2 &amp;= 529
+  \end{align*}
+\]
+  
+  
+</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx8uG0yhDxONlFhUBghsWgQxt_JDjokPlXSaGolnT_r7-rbT_FsrC6Su8WQEJY52YQInFLgUTo9sP5GXMPMbCuC0R7y_fh0f1Opj1Qy94EDDYPtKBs8dXI7c2pHMv844NKqjwdpu_Bb3IUswAc8b93R9bSpUk38XpFsqPm_J8YT36ZOOOxIrO03d1xW1uK/s1195/1788495903339.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1195" data-original-width="896" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx8uG0yhDxONlFhUBghsWgQxt_JDjokPlXSaGolnT_r7-rbT_FsrC6Su8WQEJY52YQInFLgUTo9sP5GXMPMbCuC0R7y_fh0f1Opj1Qy94EDDYPtKBs8dXI7c2pHMv844NKqjwdpu_Bb3IUswAc8b93R9bSpUk38XpFsqPm_J8YT36ZOOOxIrO03d1xW1uK/s1600/1788495903339.png" /></a></div><div><span style="font-family: verdana;"><b>Contoh 2: </b>Menghitung 18²</span></div>
+
+</div><p></p><p></p></div><p><span style="font-family: verdana;"><b>​Pecah 18 menjadi 10 + 8:<br /></b></span><span style="font-family: verdana;">​a = 10 (Puluhan)<br /></span><span style="font-family: verdana;">​b = 8 (Satuan)</span></p><p><span style="font-family: verdana;"><b>​Masukkan ke Rumus Identitas Aljabar (a+b)² = a² + 2ab + b²:<br /></b></span>
+  
+\[
+  \begin{align*}
+  (10 + 8)^2 &amp;= (10)^2 + 2(10)(8) + (8)^2 \\
+  (10 + 8)^2 &amp;= 100 + 160 + 64 \\
+  (10 + 8)^2 &amp;= 324
+  \end{align*}
+\]</p>
+  
+<div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="816" data-original-width="1306" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOTcBSQNTylLvv0iRonGqvKHKfiWakjmMBtBSmoV4brqch_neNGKTiW3asdT1FIEQEGfIe8rdODIgD4gnbIlp07J2F04icEaI6mVH5dHsW-kADBrVI3SvhbFEpmiZ4jm9aBtD7ZM9N44NZQ5RxQFHlapo_f2xADGy540fDqDWdRETQ4-4jWHTKjqP8_dXd/s1600/1785655359687.png" /></span></div>
+
+<h4> b. Mengalikan angka kembar/kuadrat lebih dari dua digit</h4>
+
+<p> Untuk perkalian kuadrat dengan angka melebihi dua digit kita akan menggunakan rumus:</p>
+  
+<div style="background: rgb(255, 255, 255); border-color: rgb(37, 99, 235) rgb(203, 213, 225) rgb(203, 213, 225); border-image: none; border-radius: 8px; border-style: solid; border-top: 4px solid #2563eb; border-width: 4px 1px 1px; border: 1px solid rgb(203, 213, 225); box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px -1px; margin-top: 25px; padding: 16px;">
+  <h4 style="color: #0f172a; margin: 0px 0px 8px;">📝 Rumus :</h4>
+
+\[ a^2 = (a + b) × (a - b) + b^2 \]
+</div>
+  
+<p>\(a\) = Angka yang dicari&nbsp;<br />\(b\) = Selisih angka</p><p><b>Cara kerjanya sederhana:</b></p><p>​I. Tentukan selisih (\(b\)) untuk mengubah angka utama (\(a\)) ke ratusan terdekat.<br />II. Buat dua suku baru: satu ditambah selisih (\(a + b\)), satu dikurangi selisih (\(a - b\)).<br />III. Kalikan kedua suku tersebut: (\(a + b\)) × (\(a - b\)).<br />IV. Kuadratkan nilai selisihnya (\(b^2\)).<br />V. Jumlahkan hasil perkalian di langkah III dengan hasil kuadrat di langkah IV.</p><p><b>Contoh: </b>123 × 123 =...&nbsp;</p><p>Ratusan terdekat : 100<br />Selisih : 123 - 100 = 23</p>
+
+<p><b>Masukkan ke rumus:</b></p>
+  
+\[
+  \begin{align*} 123^2 &amp;= (123 + 23) × (123 - 23) + (23)^2 \\ 123^2 &amp;= 146 × 100 + 529 \\ 123^2 &amp;= 14.600 + 529 \\ 123^2 &amp;= \mathbf{15.129}
+  \end{align*}
+\]
+  
+<h2 style="border-left: 5px solid rgb(2, 132, 199); clear: both; color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;"></h2>
+  
+<h3 id="distributif" style="border-left: 5px solid rgb(2, 132, 199); color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;">
+  5. Sifat Distributif atau Teknik Pembulatan
+</h3>
+  
+<div><p dir="ltr" style="text-align: justify;"><span style="font-family: verdana;">Prinsip dasar dari trik ini memanfaatkan bentuk aljabar:</span></p></div><div align="left"><span style="font-family: verdana;">a × b = (c - d) × b = (c × b) - (d × b)</span></div><div align="left"><span style="font-family: verdana;"><br /></span></div><div><b><span style="font-family: verdana;">Apa maksudnya?&nbsp;</span></b></div><div><b><span style="font-family: verdana;"><br /></span></b></div><div style="text-align: justify;"><span style="font-family: verdana;">Kita bulatkan angka yang sulit ke angka terdekat yang lebih mudah dikalikan. Setelah dikalikan, hasilnya tinggal kita sesuaikan kembali (dikurangi kalau tadi dibulatkan ke atas, atau ditambah kalau tadi dibulatkan ke bawah) sesuai selisihnya.</span></div><div align="left"><span style="font-family: verdana;">&nbsp;</span></div><div align="left"><span style="font-family: verdana;"><b>Contoh: </b>29 × 12 =....&nbsp;</span></div><div align="left"><span style="font-family: verdana;"><br /></span></div><div align="left">
+<div style="text-align: justify;"><span style="font-family: verdana;">​Bulatkan 29 menjadi 30 agar lebih mudah dihitung. Karena ada penambahan 1, kita kurangi hasilnya dengan 1 × 12:</span></div><div><span style="font-family: verdana;"><br />29 × 12 = (30 - 1) × 12</span></div><div><span style="font-family: verdana;"><br /><b>Gunakan sifat distributif:</b></span></div><div><span style="font-family: verdana; text-align: justify;">= (30 × 12) - (1 × 12)&nbsp;</span></div><div><span style="font-family: verdana; text-align: justify;">= 360 - 12&nbsp;</span></div><div><span style="font-family: verdana; text-align: justify;">= 348</span></div><div><span style="font-family: verdana; text-align: justify;"><br /></span></div>
+  
+<div><div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="1195" data-original-width="896" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu4glVhRGsf_lZROnlaFGl1yOKYKjs2sxXtaIeDDmRr11HvxTLtbUYO7Nc5Qp-ihRHBixmzP_uNmNDIarkwlh4cmBXbUG5xfwxg00mqloHAUmn7sIjxl5fLw376O0Q_BVJ8MMuk2v6IZhEDXSG9v1NhZ9tvK-wszLcb9Fm5-DS1jqjYvgN2omSi6U49jgI/s1600/1785656772961.png" /></span></div><span style="font-family: verdana;"><br /></span>
+  
+<div style="text-align: justify;"><div align="left"><b>Contoh: </b>21 × 13 =....&nbsp;</div><div align="left"><span style="font-family: verdana;"><br /></span></div><div align="left"><div style="text-align: justify;"><span style="font-family: verdana;">​Bulatkan 21 menjadi 20 agar lebih mudah dihitung. Karena ada pengurangan 1, kita tambahkan hasilnya dengan 1 × 13:</span></div><div><span style="font-family: verdana;"><br />21 × 13 = (20 + 1) × 13</span></div><div><span style="font-family: verdana;"><br /><b>Gunakan sifat distributif</b></span></div><div><span style="font-family: verdana; text-align: justify;">= (20 × 13) + (1 × 13)</span></div><div><span style="font-family: verdana; text-align: justify;">= 260 + 13&nbsp;</span></div><div><span style="font-family: verdana; text-align: justify;">= 273</span></div></div></div></div><div><span style="font-family: verdana; text-align: justify;"><br /></span></div>
+  
+<div><div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="816" data-original-width="1302" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1HMprrNk1VStEB8fKwUa6TMUK77Eckrw_-fqr-4DUXRLbx6AxKcqT5ji2UO5vpD7lxUjxp42rbfgeHb1xZJQV2v8ivRFn7QybyMgmza-gCdDeclVtVTvltu_1X2DFuidd0PK2ue8oVLMExa5t5DW-pZMEz93hY4zR_51KFFDDxE5rejwCSmu2vh4lMK0/s1600/1785658806647.png" /></span></div>
+  
+<h2 style="border-left: 5px solid rgb(2, 132, 199); clear: both; color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;"></h2>
+  
+<h3 id="gasing" style="border-left: 5px solid rgb(2, 132, 199); color: #0f172a; font-family: Poppins, sans-serif; font-weight: 700; margin-top: 30px; padding-left: 12px;">
+  6. Metode Gasing (Gampang, Asyik, dan Menyenangkan)
+</h3>
+  
+ 
+<div><span style="font-family: verdana; text-align: justify;">Metode ini dipopulerkan oleh Prof. Yohannes Surya, Ph.D., yang saya pelajari dari kanal YouTube-nya.</span></div><div style="text-align: justify;"><span style="font-family: verdana;">Sebelum masuk ke praktek, kita harus memahami konsep perkalian basis 10:</span></div>
+  
+\[
+  \begin{align*}
+  1 × 1 &amp;= 1 \\
+  1 × 10 &amp;= 10 \\
+  1 × 100 &amp;= 100 \\
+  10 × 10 &amp;= 100 \\
+  10 × 100 &amp;= 1000 \\
+  &amp; Dst...
+  \end{align*}
+\]
+  
+<div style="text-align: justify;"><span style="font-family: verdana;">Kenapa? Karena ini akan berguna di metode yang akan kita pelajari.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div><div style="text-align: justify;"><span style="font-family: verdana;">Sekarang kita akan langsung masuk ke contoh:</span></div><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div>
+  
+<div style="text-align: justify;"><p dir="ltr"><span style="font-family: verdana;"><b>Contoh 1: </b>Menghitung 12 × 13 = ...&nbsp;</span></p>
+<p dir="ltr"><span style="font-family: verdana;">​Dalam operasi matematika <b>puluhan × puluhan</b>, hasilnya pasti berada di kisaran <b>ratusan</b> atau <b>ribuan</b>.&nbsp;</span></p><p dir="ltr"><span style="font-family: verdana;">Buatkan perkalian susun dengan tiga garis kosong untuk membantu kita menandai angka yang sedang kita hitung:</span></p>
+  
+<p>\[<br />\begin{array}{r@{\quad}l}<br />&nbsp; 12 &amp; \\<br />&nbsp; 13 &amp; \times \\<br />\hline<br />&nbsp; \underline{\quad} \;\underline{\quad} \;\underline{\quad} &amp;<br />\end{array}<br />\]</p>
+<p dir="ltr"><span style="font-family: verdana;">​<b>Pecah angkanya:</b></span></p>
+  
+<ul>
+<li dir="ltr"><span style="font-family: verdana;">​12 = 10 + 2 <i>(Puluhan: 10, Satuan: 2)</i></span></li>
+<li dir="ltr"><span style="font-family: verdana;">​13 = 10 + 3 <i>(Puluhan: 10, Satuan: 3)</i></span></li>
+</ul>
+<p dir="ltr"><span style="font-family: verdana;">​<b>Langkah 1: Cari Ratusan (Puluhan ×</b><b>&nbsp;Puluhan)</b></span></p>
+<p dir="ltr"><span style="font-family: verdana;">​Kalikan nilai puluhan dari kedua angka:</span></p></div><p style="text-align: left;"><span style="font-family: verdana;">10 × 10 = 100</span></p><p><span style="font-family: verdana;">Substitusikan ke perkalian susun:</span></p>
+  
+\[
+\begin{array}{r@{\quad}l}
+  {\color {#e41b17}{1}}2 &amp; \\
+  {\color {#e41b17}{1}}3 &amp; \times \\
+\hline
+  {\color {#e41b17}{1}} \;\underline{\quad} \;\underline{\quad} &amp;
+\end{array}
+\]
+  
+<div style="text-align: left;"><p dir="ltr"><span style="font-family: verdana;"><b>Langkah 2: Cari Puluhan (Kali Silang Puluhan ×</b><b>&nbsp;Satuan)</b></span></p></div><div><p dir="ltr"><span style="font-family: verdana;">Kalikan silang antara puluhan dan satuan, lalu jumlahkan:</span></p></div><div style="text-align: left;"><span style="font-family: verdana;">= (10 × 3) + (10 × 2)&nbsp;</span></div><div style="text-align: left;"><span style="font-family: verdana;">= 30 + 20</span></div><div style="text-align: left;"><span style="font-family: verdana;">= 50</span></div><p style="text-align: justify;"><span style="font-family: verdana;">Substitusikan ke perkalian susun:</span></p>
+
+\[
+\begin{array}{r@{\quad}l}
+  {\color {#e41b17}{1}}{\color {#1569c7}{2}} &amp; \\
+  {\color {#1569c7}{1}}{\color {#e41b17}{3}} &amp; \times \\
+\hline
+  1{\color {#1b8a6b}{5}}\;\underline{\quad} &amp;
+\end{array}
+\]  
+  
+<div style="text-align: justify;"><b><span style="font-family: verdana;"><br /></span></b></div><div style="text-align: justify;"><span style="font-family: verdana;"><b>Langkah 3: Cari Satuan (Satuan </b><b>×</b><b> Satuan)</b></span></div><div style="text-align: justify;">
+ 
+<p><span style="font-family: verdana;">​Kalikan kedua angka satuan:</span></p></div><div style="text-align: justify;"><span style="font-family: verdana;">2 × 3 = 6</span></div><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div><div style="text-align: justify;"><span style="font-family: verdana;">Maka hasil akhirnya: 156</span></div><p>
+  
+\[
+\begin{array}{r@{\quad}l}
+  1{\color {#e41b17}{2}} &amp; \\
+  1{\color {#e41b17}{3}} &amp; \times \\
+\hline
+  15{\color {#e41b17}{6}}&amp;
+\end{array}
+\]
+  
+</p><div><div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="688" data-original-width="1536" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1sLKVKa32pPfQCK6-gd1sP_LvrZ0RdWX-k8OORk1XieYXZxNjJeDyToMwfxUE8z6gZgdiFbjclVtZykFLOH3_RjbUuBzcwB1WWiJ6uu9qfhMijfH6_Ek80biYSVW1owzAwR3DXT5px1qLW_lZ9zbb7AzrLnSkg19INLBK5kWYBLdhBtj1oYAuyrYSxH6z/s1600/1785732693538.png" /></span></div><span style="font-family: verdana;"><br /></span>
+  
+<div style="text-align: justify;"><b><span style="font-family: verdana;"><br /></span></b></div></div><div><span style="font-family: verdana; text-align: justify;"><b>Contoh 2: </b>Menghitung 123 × 456 = ...&nbsp;</span></div><div><span style="font-family: verdana; text-align: justify;"><b><br /></b></span></div><div><span style="font-family: verdana; text-align: justify;">Sama seperti tadi, kita harus melihat ini adalah perkalian apa dengan apa?&nbsp;</span></div><div><span style="font-family: verdana; text-align: justify;"><br /></span></div><div><span style="font-family: verdana; text-align: justify;">Ini adalah <b>ratusan × ratusan</b>, yang mana hasilnya pasti <b>puluhan ribu</b> atau bahkan <b>ratusan ribu</b>.&nbsp;</span></div><div><span style="font-family: verdana; text-align: justify;"><br /></span></div><div style="text-align: justify;"><span style="font-family: verdana;"><b>Buat perkalian susun dengan 5 garis kosong:</b></span></div><div><span style="font-family: verdana; text-align: justify;"><br /></span></div>
+  
+\[
+\begin{array}{r@{\quad}l}
+  123 &amp; \\
+  456 &amp; \times \\
+\hline
+  \underline{\quad} \;\underline{\quad} \;\underline{\quad} \;\underline{\quad} \;\underline{\quad} &amp;
+\end{array}
+\] 
+  
+<div><p dir="ltr" style="text-align: justify;"><b><span style="font-family: verdana;">Lalu Pecah angkanya:</span></b></p><ul style="text-align: justify;"><li dir="ltr"><span style="font-family: verdana;">​123 = 100 + 20 + 3</span></li><li dir="ltr"><span style="font-family: verdana;">​456 = 400 + 50 + 6</span></li></ul></div>
+  
+<div><span style="font-family: verdana; text-align: justify;"><b>Langkah 1: Cari Puluhan ribu (Ratusan ×</b><b>&nbsp;Ratusan)</b></span></div><div><span style="font-family: verdana; text-align: justify;"><br /></span></div><div><span style="font-family: verdana; text-align: justify;">100 × 400 = 40.000</span></div><div><span style="font-family: verdana; text-align: justify;"><p style="text-align: -webkit-left;">Substitusikan ke perkalian susun:</p></span></div>
+  
+ \[
+\begin{array}{r@{\quad}l}
+  {\color {#e41b17}{1}}23 &amp; \\
+  {\color {#e41b17}{4}}56 &amp; \times \\
+\hline
+  {\color {#e41b17}{4}}\;\underline{\quad} \;\underline{\quad} \;\underline{\quad} \;\underline{\quad} &amp;
+\end{array}
+\]
+  
+<p><span style="font-family: verdana; text-align: justify;"><b>Langkah 2: Cari Ribuan (Ratusan ×</b><b>&nbsp;Puluhan)</b></span></p><p><span style="font-family: verdana; text-align: justify;">= (100 × 50) + (400 × 20)&nbsp;<br /></span><span style="font-family: verdana; text-align: justify;">= 5.000 + 8.000<br /></span><span style="font-family: verdana; text-align: justify;">= 13.000</span></p><p>Masukkan angkanya ke perkalian susun tadi:</p><p>
+ 
+\[ 
+  \begin{array}{r@{\quad}l} 
+  {\color {#e41b17}{1}}{\color {#1569c7}{2}}3 &amp; \\ 
+  {\color {#1569c7}{4}}{\color {#e41b17}{5}}6 &amp; \times \\ 
+  \hline 
+  4{\color {#1b8a6b}{^1  }\;{3}}\;\underline{\quad} \;\underline{\quad} \;\underline{\quad} &amp; \end{array} \]  
+  
+</p><p style="text-align: justify;"><span style="font-family: verdana;"><b>Langkah 3: Cari Ratusan (Puluhan ×</b><b>&nbsp;Puluhan) + (Ratusan × Satuan)</b></span></p><p style="text-align: justify;"><span style="font-family: verdana;">= (20 × 50) + (100 × 6) + (400 × 3)&nbsp;<br /></span><span style="font-family: verdana;">= 1.000 + 600 + 1.200<br /></span><span style="font-family: verdana;">= 2.800</span></p><p style="text-align: justify;"><span style="font-family: verdana;">Substitusikan angkanya ke perkalian susun :</span></p><p>
+  
+  \[ 
+  \begin{array}{r@{\quad}l} 
+  {\color {#e41b17}{1}}{\color {#1569c7}{2}}{\color {#ffbf00}{3}} &amp; \\ 
+  {\color {#ffbf00}{4}}{\color {#1569c7}{5}}{\color {#e41b17}{6}} &amp; \times \\ 
+  \hline 
+  4^1\;3{\color {#1b8a6b}{^2}\;{8}}\;\underline{\quad} \;\underline{\quad} &amp; \end{array} \]  
+
+  </p><p style="text-align: justify;"><span style="font-family: verdana;"><b>Langkah 4: Cari Puluhan (Puluhan ×</b><b>&nbsp;Satuan)</b></span></p><div style="text-align: justify;"><span style="font-family: verdana;">= (20 × 6) + (50 × 3)&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: verdana;">= 120 + 150</span></div><div style="text-align: justify;"><span style="font-family: verdana;">= 270</span></div><p style="text-align: justify;"><span style="font-family: verdana; text-align: -webkit-left;">Substitusikan ke perkalian susun:</span></p><p>
+  
+\[ 
+  \begin{array}{r@{\quad}l} 
+  1{\color {#e41b17}{2}}{\color {#1569c7}{3}} &amp; \\ 
+  4{\color {#1569c7}{5}}{\color {#e41b17}{6}} &amp; \times \\ 
+  \hline 
+  4^1\;3^2\;8{\color {#2e8b57}{^2}\;{7}}\;\underline{\quad} &amp; \end{array} \]</p>
+  
+  <p><span style="font-family: verdana; text-align: justify;"><b>Langkah 5: Cari Satuan (Satuan ×</b><b>&nbsp;Satuan)</b></span></p><p style="text-align: justify;"><span style="font-family: verdana;">= 3 × 6<br /></span><span style="font-family: verdana;">= 18</span></p><div style="text-align: justify;"><span style="font-family: verdana; text-align: -webkit-left;">Substitusikan ke perkalian susun:</span></div><p>
+  
+\[ 
+  \begin{array}{r@{\quad}l} 
+  12{\color {#e41b17}{3}} &amp; \\ 
+  45{\color {#e41b17}{6}} &amp; \times \\ 
+  \hline 
+  4^1\;3^2\;8^2\;7{\color {#2e8b57}{^1}\;{8}}&amp; \end{array} \]
+  
+</p><p>Jumlah kan semua angka yang telah di dapat :</p>
+  
+\[ 
+  \begin{array}{r@{\quad}l} 
+  123 &amp; \\ 
+  456 &amp; \times \\ 
+  \hline 
+  56088&amp; \end{array} \]
+  
+<div class="separator" style="clear: both; text-align: center;"><span style="clear: left; float: left; font-family: verdana; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="912" data-original-width="1147" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE1ay3hn9Y0kJrnLA5eYHnXE9tM2XutQ6Win-AqdotW7NIRdZCskj4zmUwFvCoqJ0UmC94vZ2zpa7aXl0DaHZC1OZxYPabTNfCZSf46avZTWPbVRv_ciW3F-AZDuuO4K9gPEFybVJhlsu324ZT4B10OTEMUca2VxbH3XHKhLbgb79Xze_ti2Dm_Qr14HWL/s1600/1785743494872.png" /></span></div><span style="font-family: verdana;"><br /></span><div style="text-align: justify;"><span style="font-family: verdana;"><br /></span></div>
+  
+<div><span style="font-family: verdana;">Nah, itu dia beberapa trik perkalian cepat yang bisa kamu coba. Pada dasarnya matematika itu mudah semuanya tentang “memahami pola dan konsep dasarnya”. Kamu juga dapat mencoba trik ini di <a href="https://binderkedua.blogspot.com/2026/09/game-perkalian-final.html"><i>"Game Perkalian"</i></a>. Kuncinya cuma dua: paham apa dan bagaimana cara kerjanya, lalu terus berlatih.</span></div><br /><div style="text-align: justify;"><span style="font-family: verdana;">​Semoga informasi ini bisa menambah motivasi dan semangatmu untuk terus belajar dan berkembang jadi lebih baik!</span></div>
