@@ -30,3 +30,13 @@ btnBackToTop.addEventListener("click", function () {
     behavior: "smooth"
   });
 });
+
+// Memastikan semua format math bekerja setelah HTML dimuat
+window.addEventListener('load', function () {
+  if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
+    MathJax.typesetPromise().catch(function (err) {
+      console.log('MathJax error: ' + err.message);
+    });
+  }
+});
+
